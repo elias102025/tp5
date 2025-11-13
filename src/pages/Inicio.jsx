@@ -1,8 +1,11 @@
+import SubirImagen from "./SubirImagen";
+
 const Inicio = () => {
   return (
-    <div>
-      <h1>Página de Inicio</h1>
-      <p>Bienvenido a nuestro sitio web .</p>
+    <div style={{ textAlign: "center", padding: "40px" }}>
+      <h1>Bienvenido a nuestra página</h1>
+      <p>Puedes subir una imagen desde tu dispositivo:</p>
+      <SubirImagen />
     </div>
   );
 };
