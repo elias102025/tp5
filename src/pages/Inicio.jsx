@@ -1,4 +1,4 @@
-import SubirImagen from "./SubirImagen";
+import SubirImagen from "../components/SubirImagen";
 
 const Inicio = () => {
   return (
